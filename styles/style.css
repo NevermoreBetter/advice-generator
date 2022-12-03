@@ -134,8 +134,12 @@ body {
   margin-bottom: 2rem;
 }
 .container .advice__box .advice__text {
+  display: flex;
   margin-bottom: 2rem;
   font-size: 24px;
+  min-height: 130px;
+  align-items: center;
+  justify-content: center;
 }
 .container .advice__box .next__advice {
   position: absolute;
@@ -162,6 +166,7 @@ picture {
     width: 95% !important;
   }
   .advice__box .advice__text {
+    min-height: 100px !important;
     font-size: 16px !important;
   }
 }/*# sourceMappingURL=style.css.map */
